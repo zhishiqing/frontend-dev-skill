@@ -1,5 +1,5 @@
 ---
-name: frontend-dev-workflow
+name: frontend-dev-skill
 description: 前端开发工作流。基于 VoltAgent/awesome-design-md 推荐合适的设计系统，生成项目前端风格指南文档 (FRONTEND_STYLE.md)。触发场景：任何前端组件开发、页面构建、UI 设计和 Web 应用开发任务。
 ---
 
@@ -129,7 +129,11 @@ VoltAgent/awesome-design-md 包含 73 个从热门网站提取的 DESIGN.md 设�
 3. **调用设计 Skill**
    在前端开发过程中，需要调用这两个 Skill：
    - **frontend-design Skill**：用于生成 HTML+CSS 代码和响应式布局
+      - Skill 文件：优先查找本地Skill是否存在
+      - 如文件不存在，请先从 https://mcpservers.org/claude-skills/anthropic/frontend-design 下载安装
    - **interaction-design Skill**：用于微交互、状态反馈、过渡动画
+      - Skill 文件：优先查找本地Skill是否存在
+      - 如文件不存在，请先从 https://github.com/wshobson/agents/tree/main/plugins/ui-design/skills/interaction-design 下载安装
 
 ### Step 4: 设计执行与开发
 
